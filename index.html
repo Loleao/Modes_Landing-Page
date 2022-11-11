@@ -4,14 +4,84 @@
     <head>
         <meta charset="UTF-8">
         <title>Modes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+       <link rel="" href="scripts/main.js">
     </head>
     <body>
-        <header></header>
-        <nav></nav>
-        <main>
-            <article></article>
-            <article></article>
-        </main>
-        <footer></footer> 
+        <header class="principal">
+            <nav class="menu">
+                <figure class="logo">
+                    <a href="#principal">
+                    <img src="images/logo.PNG" alt="logo">
+                    </a>
+                </figure>  
+                <ul>
+                    <li><a href="#contacto">Encuentranos</a></li>
+                    <li><a href="#cards">Nosotros</a></li>
+                    <li><a href="#principal">Inicio</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="wave-contenedor website">
+            <img src="images/logo.PNG" alt="logo">
+            <div class="contenedor-textos-main">
+                <h2 class="titulo center">Modes</h2>
+                <p class="parrafo">Somos un StarUp que busca ayudar en el aprendizaje de diversos temas de estudio a nuestros usuarios.
+                    Además, buscamos facilitar y mejorar su organización de estudio, para que al final puedan tener una mejor vida académica</p>
+                </div>
+        </section>
+
+        <section class="cards contenedor">
+            <h2 class="titulo">Conoce nuestra aplicación</h2>
+            <div class="content-cards">
+                <article class="card">
+                    <img src="images/reportes.png" alt="Reportes">
+                    <p>Brindamos reportes de las evaluaciones realizadas</p>
+                </article>
+                <article class="card">
+                    <img src="images/calendario.PNG " alt="Calendario">
+                    <p>Acceso a edición de calendario</p>
+                </article>
+                <article class="card">
+                    <img src="images/Acceso.PNG" alt="Acceso">
+                    <p>Diferentes medios de acceso</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cards contenedor">
+            <div class="content-cards">
+                <article class="card">
+                    <img src="images/inicio.PNG" alt="Inicio">
+                    <h2 class="titulo">Que esperas</h2>
+                </article>
+                <article class="card">
+                    <h2 class="titulo">¡Descarga ahora!</h2>
+                    <img id="imgstore" src="images/stores.PNG" alt="Stores">
+                </article>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros socios</h2>
+                <article class="galeria-cont">
+                    <img src="images/unicef.png" alt="Unicef">
+                    <img src="images/minedu.png" alt="Minedu">
+                </article>
+            </div>
+        </section>
+    
+        <footer id="contacto">
+            <div class="contenedor">
+                <p class="parrafo left">Correo: Modes.28@mode.com</p>
+                <p class="parrafo left">Contacto: 987654321</p>
+                <p class="parrafo left">Horario de atención: 7:00 am - 8:00 pm</p>
+            </div>
+        </footer>
     </body>
 </html>
