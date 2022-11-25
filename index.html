@@ -7,11 +7,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="styles/styles.css">
        <link rel="" href="scripts/main.js">
     </head>
     <body>
-        <header class="principal">
+        <header id="principal">
             <nav class="menu">
                 <figure class="logo">
                     <a href="#principal">
@@ -19,8 +21,9 @@
                     </a>
                 </figure>  
                 <ul>
-                    <li><a href="#contacto">Encuentranos</a></li>
-                    <li><a href="#cards">Nuestro Producto</a></li>
+                    <li><a href="login.html">Inicie Sesión</a></li>
+                    <li><a href="#pie-pagina">Encuentranos</a></li>
+                    <li><a href="#about-product">Nuestro Producto</a></li>
                     <li><a href="#principal">Inicio</a></li>
                 </ul>
             </nav>
@@ -30,9 +33,25 @@
             <img src="images/logo.PNG" alt="logo">
             <div class="contenedor-textos-main">
                 <h2 class="titulo center">Modes</h2>
-                <p class="parrafo">Somos un StarUp que busca ayudar en el aprendizaje de diversos temas de estudio a nuestros usuarios.
-                    Además, buscamos facilitar y mejorar su organización de estudio, para que al final puedan tener una mejor vida académica</p>
+                <p class="parrafo">Te brindamos ayuda con tus estudios y nos aseguramos de que puedas disfrutar del uso de nuestra aplicación en todo momento.</p>
                 </div>
+        </section>
+
+        <section id="sesion">
+            <h2>¿Listo para estudiar?</h2>
+            <h1>Pues no esperes más</h1>
+            <a href="login.html"><button>¡INICIA SESION YA!</button></a>
+        </section>
+
+        <section id="about-product">
+            <div class="container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HutzuqKRTAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="texto">
+                    <h2>Sobre nuestro producto</h2>
+                    <p>Somos un StarUp que busca ayudar en el aprendizaje de diversos temas de estudio a nuestros usuarios.
+                        Además, buscamos facilitar y mejorar su organización de estudio, para que al final puedan tener una mejor vida académica</p>
+                </div>
+            </div>
         </section>
 
         <section class="cards contenedor">
@@ -53,16 +72,43 @@
             </div>
         </section>
 
-        <section class="cards contenedor">
-            <div class="content-cards">
-                <article class="card">
-                    <img src="images/inicio.PNG" alt="Inicio">
-                    <h2 class="titulo">Que esperas!!!</h2>
-                </article>
-                <article class="card">
-                    <h2 class="titulo">¡Descarga ahora!</h2>
-                    <img id="imgstore" src="images/stores.PNG" alt="Stores">
-                </article>
+        <section id="descarga">
+            <div class="izquierda">
+                <h1 class="titulo-left">QUE ESPERAS <span class="color">DESCARGALO YA!!!</span></h1>
+                <p class="parrafo-left">No te quedes sin estudiar, continua haciendolo con nosotros</p>
+                <div class="but">
+                    <a href="">Descargalo ahora</a>
+                </div>
+            </div>
+            <div class="derecha">
+                <img src="images/download.webp" alt="extra">
+            </div>
+        </section>
+
+        <section class="testimonios">
+            <div class="container-testimonials">
+                <h1>Testimonios</span></h1>
+
+                <div class="testimonial">
+                    <img class="photo-perfil1" src="images/person1.jpg" alt="person">
+                    <h2>Alex Huerta</h2>
+                    <h4>Estudiante</h4>
+                    <p>Excelente para poder estudiar sin esfuerzo y con buenos resultados!!</p>
+                </div>
+
+                <div class="testimonial">
+                    <img class="photo-perfil1" src="images/person2.jpg" alt="person">
+                    <h2>Andrea Sofia</h2>
+                    <h4>Estudiante</h4>
+                    <p>Me sirvio mucho, lo recomiendo a todas las personas.</p>
+                </div>
+
+                <div class="testimonial">
+                    <img class="photo-perfil1" src="images/person3.jpg" alt="person">
+                    <h2>Lalo Taipe</h2>
+                    <h4>Estudiante</h4>
+                    <p>Mejore mucho en mis estudio gracias a esta app, es demasiado buena.</p>
+                </div>
             </div>
         </section>
 
@@ -70,18 +116,39 @@
             <div class="contenedor">
                 <h2 class="titulo">Nuestros socios</h2>
                 <article class="galeria-cont">
-                    <img src="images/unicef.png" alt="Unicef">
-                    <img src="images/minedu.png" alt="Minedu">
+                    <a href="https://www.unicef.org/es"><img src="images/unicef.png" alt="Unicef"></a>
+                    <a href="https://www.gob.pe/minedu"><img src="images/minedu.png" alt="Minedu"></a>
                 </article>
             </div>
         </section>
     
-        <footer id="contacto">
-            <div class="contenedor">
-                <p class="parrafo left">Correo: Modes.28@mode.com</p>
-                <p class="parrafo left">Contacto: 987654321</p>
-                <p class="parrafo left">Horario de atención: 7:00 am - 8:00 pm</p>
-                <p class="parrafo left">Todos los derechos reservados. Copyright Modes</p>
+        <footer id="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="images/logo.PNG" alt="logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Correo: Modes.28@mode.com</p>
+                    <p>Contacto: 987654321</p>
+                    <p>Horario de atención: 7:00 am - 8:00 pm</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>Copyright; 2022 <b>Modes</b> - Todos los Derechos Reservados.</small>
             </div>
         </footer>
     </body>

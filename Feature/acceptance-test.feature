@@ -9,6 +9,8 @@ Feature: Formas de registro
     Then la aplicación registrara la cuenta creada
     And la guardará en la base de datos
     And mostrara un mensaje que dice “Registro completado”
+    
+    
 
 Feature: Cambio de contraseña
     Como usuario quiero que se pueda cambiar de contraseña cuando no me acuerde la contraseña para poder seguir usando la aplicación con la misma cuenta.
